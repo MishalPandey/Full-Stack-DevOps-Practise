@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: taxa
+
+frontend:
+  url: http://yourapp.com
