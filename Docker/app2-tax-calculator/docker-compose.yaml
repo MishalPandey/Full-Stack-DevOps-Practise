@@ -1,14 +1,35 @@
 services:
   service-a:
     build: ./service-a
+    image: mishalpandey/tax-calculator-service-a:1.0
     ports:
       - "3100:3000"
     depends_on:
       - service-b
     environment:
       - TAX_SERVICE_URL=http://service-b:4000
+      - FRONTEND_URL=http://localhost:5173
+    networks:
+      - tax-network
 
   service-b:
     build: ./service-b
+    image: mishalpandey/tax-calculator-service-b:1.0
     ports:
       - "3200:4000"
+    networks:
+      - tax-network
+
+  frontend:
+    build: ./tax-calculator-frontend
+    image: mishalpandey/tax-calculator-frontend:1.0
+    ports:
+      - "5173:80"
+    depends_on:
+      - service-a
+    networks:
+      - tax-network
+
+networks:
+  tax-network:
+    driver: bridge
