@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-hello
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1-hello
+  template:
+    metadata:
+      labels:
+        app: app1-hello
+    spec:
+      containers:
+        - name: app1-hello
+          image: mishalpandey/hello-spring:1.0
+          env:
+            - name: ENV_MESSAGE
+              valueFrom:
+                configMapKeyRef:
+                  name: app-config
+                  key: ENV_MESSAGE
+            - name: ENV_VALUE
+              valueFrom:
+                secretKeyRef:
+                  name: app-secret
+                  key: ENV_VALUE
+          ports:
+            - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app1-hello
+spec:
+  selector:
+    app: app1-hello
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 8080
+      nodePort: 32200
