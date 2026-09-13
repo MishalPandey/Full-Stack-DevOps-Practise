@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9dff42-e431-4091-b375-ac37f6f87d95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Kubernetes/1_seperate_k8s_configuration/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes/1_seperate_k8s_configuration/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes/2_combine_k8s_configuration/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes/3_combine_k8s_configuration_with_env_values/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes/4_combine_k8s_configuration_with_env_values_From_CONFIGMAPS_and_Secrets/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes/4_combine_k8s_configuration_with_env_values_From_CONFIGMAPS_and_Secrets/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes/4_combine_k8s_configuration_with_env_values_From_CONFIGMAPS_and_Secrets/secret.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/app2-tax-calculator/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/app2-tax-calculator/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/app2-tax-calculator/service-a/src/main/java/devops/mishal/service_a/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/app2-tax-calculator/service-a/src/main/java/devops/mishal/service_a/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/app2-tax-calculator/service-a/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/app2-tax-calculator/service-a/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,37 +28,123 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4299020617111906" />
+      <entry key="MS500" value="3.593998116643757" />
+      <entry key="S2" value="6.207105542622849" />
+      <entry key="S5" value="7.191966927260785" />
+      <entry key="S10" value="7.578806222194187" />
+      <entry key="S30" value="7.855648578728028" />
+      <entry key="S60" value="7.935953750709732" />
+      <entry key="M2" value="8.056827485482358" />
+      <entry key="M5" value="8.441407930212536" />
+      <entry key="M10" value="10.457328394283257" />
+      <entry key="M15" value="15.2791983134701" />
+      <entry key="M30" value="33.537908407908326" />
+      <entry key="H1" value="57.633598794432245" />
+      <entry key="H2" value="77.62543057212562" />
+      <entry key="H4" value="90.57082273881566" />
+      <entry key="D1" value="103.23651390788132" />
+      <entry key="W1" value="105.60023817640736" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3175357414052487" />
+      <entry key="MS500" value="3.4248788000864336" />
+      <entry key="S2" value="6.115303568588778" />
+      <entry key="S5" value="7.1482940229642935" />
+      <entry key="S10" value="7.555635157584926" />
+      <entry key="S30" value="7.847609760230556" />
+      <entry key="S60" value="7.931892737507649" />
+      <entry key="M2" value="8.054780452196004" />
+      <entry key="M5" value="8.440453975987975" />
+      <entry key="M10" value="10.456452977136731" />
+      <entry key="M15" value="15.27824444824028" />
+      <entry key="M30" value="33.53691603702259" />
+      <entry key="H1" value="57.632809421260276" />
+      <entry key="H2" value="77.62492112120418" />
+      <entry key="H4" value="90.57053177907112" />
+      <entry key="D1" value="103.23645958951485" />
+      <entry key="W1" value="105.60023026243644" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3HzmAE3afqdzf9D8HnZOBoM8dHr" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;epic&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "epic",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise/Kubernetes/4_combine_k8s_configuration_with_env_values_From_CONFIGMAPS_and_Secrets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\4_combine_k8s_configuration_with_env_values_From_CONFIGMAPS_and_Secrets" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\3_app1-hello_k8s_configuration" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\2_combine_k8s_configuration" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\seperate_k8s_configuration" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
