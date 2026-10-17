@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mishal Pandey | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: white;
+        }
+
+        nav h2 {
+            color: #111827;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #374151;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        /* Home section */
+        .home {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 70px 8%;
+            background: #f3f6fa;
+        }
+
+        .intro {
+            flex: 1;
+        }
+
+        .intro h1 {
+            font-size: 48px;
+            margin: 10px 0;
+        }
+
+        .intro h3 {
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        .intro p {
+            margin: 20px 0;
+            color: #4b5563;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        .home img {
+            width: 48%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* About section */
+        .about {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .about h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            max-width: 600px;
+            margin: auto;
+            color: #4b5563;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* Mobile layout */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .home {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 6%;
+            }
+
+            .intro h1 {
+                font-size: 36px;
+            }
+
+            .home img {
+                width: 100%;
+                height: 230px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Mishal</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="intro">
+            <p>Hello, I'm</p>
+            <h1>Mishal Pandey</h1>
+            <h3>Software Developer | Full Stack Enthusiast</h3>
+
+            <p>
+                I build simple and effective web applications
+                and love turning ideas into reality.
+            </p>
+
+            <a href="mailto:your-email@example.com" class="button">
+                Get in Touch
+            </a>
+        </div>
+
+        <img
+            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1000"
+            alt="Beautiful mountain landscape">
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a software developer passionate about building
+            web applications and exploring new technologies.
+            I enjoy solving problems, learning new skills,
+            and creating useful solutions.
+        </p>
+    </section>
+
+    <section class="about" id="projects">
+        <h2>My Projects</h2>
+        <p>
+            I enjoy working on web applications, backend services,
+            and full-stack development projects.
+        </p>
+    </section>
+
+    <section class="about" id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect and build something useful together.</p>
+        <br>
+        <a href="mailto:your-email@example.com" class="button">
+            Email Me
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mishal Pandey. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

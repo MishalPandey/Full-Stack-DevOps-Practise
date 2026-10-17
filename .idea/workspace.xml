@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9dff42-e431-4091-b375-ac37f6f87d95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Kubernetes/6_app2-tax-calculator_Microservices_k8s_configuration/service-a/app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kubernetes/6_app2-tax-calculator_Microservices_k8s_configuration/service-a/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kubernetes/6_app2-tax-calculator_Microservices_k8s_configuration/service-b/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/aws/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/aws/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,23 +24,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000048337" />
-      <entry key="S2" value="1.001482759160359" />
-      <entry key="S5" value="1.0738632216833979" />
-      <entry key="S10" value="1.271777890350554" />
-      <entry key="S30" value="1.6477459521705025" />
-      <entry key="S60" value="1.8048266597041267" />
-      <entry key="M2" value="1.897121321171613" />
-      <entry key="M5" value="1.9621586676973994" />
-      <entry key="M10" value="2.595746735714368" />
-      <entry key="M15" value="5.205739221405356" />
-      <entry key="M30" value="21.36343212694747" />
-      <entry key="H1" value="64.50970680170205" />
-      <entry key="H2" value="135.00403507120478" />
-      <entry key="H4" value="206.96063225964411" />
-      <entry key="D1" value="304.49551807469607" />
-      <entry key="W1" value="326.2087315492764" />
+      <entry key="MS100" value="1.0001763800974148" />
+      <entry key="MS500" value="1.2187480420593872" />
+      <entry key="S2" value="2.1030764987580515" />
+      <entry key="S5" value="2.7823639136637826" />
+      <entry key="S10" value="3.9621625288789364" />
+      <entry key="S30" value="10.397871425795405" />
+      <entry key="S60" value="18.922848841957443" />
+      <entry key="M2" value="34.39474781267292" />
+      <entry key="M5" value="61.00941376538986" />
+      <entry key="M10" value="77.07041486636273" />
+      <entry key="M15" value="84.14162883299186" />
+      <entry key="M30" value="98.16742587353875" />
+      <entry key="H1" value="132.58022404099216" />
+      <entry key="H2" value="200.1777458367182" />
+      <entry key="H4" value="278.96780889689296" />
+      <entry key="D1" value="396.5998224478848" />
+      <entry key="W1" value="424.14533382729036" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -63,23 +62,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8467453123625271" />
-      <entry key="MS500" value="0.9672763296185051" />
-      <entry key="S2" value="0.9931790763151265" />
-      <entry key="S5" value="1.0701331927450601" />
-      <entry key="S10" value="1.2693632353884752" />
-      <entry key="S30" value="1.6465932203158886" />
-      <entry key="S60" value="1.8041776162938807" />
-      <entry key="M2" value="1.8967754462495627" />
-      <entry key="M5" value="1.9620139541472477" />
-      <entry key="M10" value="2.595621046296974" />
-      <entry key="M15" value="5.205506694542246" />
-      <entry key="M30" value="21.362875003237505" />
-      <entry key="H1" value="64.50888800053033" />
-      <entry key="H2" value="135.0032063616928" />
-      <entry key="H4" value="206.9600083221509" />
-      <entry key="D1" value="304.49536725577775" />
-      <entry key="W1" value="326.2087085218185" />
+      <entry key="MS100" value="0.8527949556779777" />
+      <entry key="MS500" value="1.1828266836383654" />
+      <entry key="S2" value="2.0888597831540276" />
+      <entry key="S5" value="2.7748772716203" />
+      <entry key="S10" value="3.9564001875454693" />
+      <entry key="S30" value="10.391122186596638" />
+      <entry key="S60" value="18.915874897246383" />
+      <entry key="M2" value="34.38757841296702" />
+      <entry key="M5" value="61.00390241174692" />
+      <entry key="M10" value="77.06685424036698" />
+      <entry key="M15" value="84.1390114076733" />
+      <entry key="M30" value="98.16581735211075" />
+      <entry key="H1" value="132.5790026478127" />
+      <entry key="H2" value="200.17673208050448" />
+      <entry key="H4" value="278.9670710791303" />
+      <entry key="D1" value="396.5996426393042" />
+      <entry key="W1" value="424.14530624880285" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -119,7 +118,7 @@
     "git-widget-placeholder": "epic",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise/Kubernetes/6_app2-tax-calculator_Microservices_k8s_configuration/service-b",
+    "last_opened_file_path": "D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise/AWS/aws",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,11 +129,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\AWS\aws" />
       <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\6_app2-tax-calculator_Microservices_k8s_configuration\service-b" />
       <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\6_app2-tax-calculator_Microservices_k8s_configuration" />
       <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes" />
       <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\5_app1-hello_k8s_configuration" />
-      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\4_combine_k8s_configuration_with_env_values_From_CONFIGMAPS_and_Secrets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\6_app2-tax-calculator_Microservices_k8s_configuration\service-a" />
@@ -163,5 +162,8 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.pem" />
   </component>
 </project>

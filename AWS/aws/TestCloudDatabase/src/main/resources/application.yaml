@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: TestCloudDatabase
+  datasource:
+    url: jdbc:postgresql://database-1.czy6we00s6m8.eu-north-1.rds.amazonaws.com/testdb
+    username: postgres
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+        ddl-auto: update
