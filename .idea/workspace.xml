@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad9dff42-e431-4091-b375-ac37f6f87d95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AWS/2_aws_k8s_Deployment_of_app1-hello/Checking+Loadbalancing+with+Multiple+ReplicaPods.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/2_aws_k8s_Deployment_of_app1-hello/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/service-a/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/service-b/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/src/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/src/main/java/mishal/TestCloudDatabase/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/src/main/java/mishal/TestCloudDatabase/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/src/main/java/mishal/TestCloudDatabase/TestCloudDatabaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/src/main/java/mishal/TestCloudDatabase/TestCloudDatabaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/TestCloudDatabase/src/test/java/mishal/TestCloudDatabase/TestCloudDatabaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/TestCloudDatabase/src/test/java/mishal/TestCloudDatabase/TestCloudDatabaseApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/aws/my-ec2-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/1_aws/my-ec2-key.pem" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise" value="3HzmAE3afqdzf9D8HnZOBoM8dHr" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000003912516033" />
+      <entry key="S10" value="1.0006255010818106" />
+      <entry key="S30" value="1.085521640239463" />
+      <entry key="S60" value="1.2924408320318197" />
+      <entry key="M2" value="1.5407779881987484" />
+      <entry key="M5" value="1.782360151854466" />
+      <entry key="M10" value="1.9340697042684603" />
+      <entry key="M15" value="2.2107584871582655" />
+      <entry key="M30" value="3.9027843579466293" />
+      <entry key="H1" value="9.649963685061193" />
+      <entry key="H2" value="33.570428249174235" />
+      <entry key="H4" value="105.90058813217195" />
+      <entry key="D1" value="425.6486398268008" />
+      <entry key="W1" value="562.6125141419935" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.07279584915427847" />
+      <entry key="MS500" value="0.5921358059268162" />
+      <entry key="S2" value="0.8772135487328221" />
+      <entry key="S5" value="0.948947768028156" />
+      <entry key="S10" value="0.974760010549797" />
+      <entry key="S30" value="1.0766069617422804" />
+      <entry key="S60" value="1.2877087624600447" />
+      <entry key="M2" value="1.5382503417894382" />
+      <entry key="M5" value="1.781286322296436" />
+      <entry key="M10" value="1.9335073127009113" />
+      <entry key="M15" value="2.210352443307742" />
+      <entry key="M30" value="3.9025137936311527" />
+      <entry key="H1" value="9.649730708581918" />
+      <entry key="H2" value="33.57010673499587" />
+      <entry key="H4" value="105.90015762322047" />
+      <entry key="D1" value="425.64839638458704" />
+      <entry key="W1" value="562.6124693643646" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HzmAE3afqdzf9D8HnZOBoM8dHr" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "epic",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\AWS\3_aws_k8s_Deployment_of_app2-tax-calculator-microservice" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\AWS\3_aws_k8s_Deployment_of_app2-tax-calculator" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\AWS\aws_k8s" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\AWS\aws" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\6_app2-tax-calculator_Microservices_k8s_configuration\service-b" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\6_app2-tax-calculator_Microservices_k8s_configuration\service-a" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\6_app2-tax-calculator_Microservices_k8s_configuration" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes" />
+      <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\Kubernetes\seperate_k8s_configuration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Full-Stack-DevOps-Practise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Full-Stack-DevOps-Practise" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad9dff42-e431-4091-b375-ac37f6f87d95" name="Changes" comment="" />
+      <created>1786879126318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786879126318</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/node_modules/@eslint/plugin-kit/dist/esm/types.d.ts" />
+        <option value="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/node_modules/@eslint/config-array/dist/esm/types.d.ts" />
+        <option value="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/node_modules/@eslint/object-schema/dist/esm/types.d.ts" />
+        <option value="$PROJECT_DIR$/AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend/node_modules/@eslint/config-helpers/dist/esm/types.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.pem" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+</project>

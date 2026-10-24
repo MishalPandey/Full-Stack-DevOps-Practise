@@ -1,0 +1,10 @@
+POWERSHELL
+while ($true) {
+    curl.exe -H "Connection: close"  <LINK>
+    echo ""
+    Start-Sleep 1
+}
+
+
+MAC & LINUX
+while true; do curl "<link>"; echo; sleep 1; done
