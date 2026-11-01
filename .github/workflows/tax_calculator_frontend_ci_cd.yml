@@ -18,8 +18,6 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax_calculator_frontend/package-lock.json
 
       - name: Create .env File for Build
         working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax_calculator_frontend
