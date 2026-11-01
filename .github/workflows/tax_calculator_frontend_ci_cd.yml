@@ -93,5 +93,5 @@ jobs:
       - name: Deploy Frontend to AWS EKS
         run: |
           kubectl apply -f AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/frontend
-          kubectl apply -f AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/ingress.yaml
+          kubectl apply -f CICD/2_CICD_for_microservice_app2-tax-calculator/ingress.yaml
 
