@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9dff42-e431-4091-b375-ac37f6f87d95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/frontend/app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/service-a/app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/service-b/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/tax_calculator_spring_ci_cd.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CICD/1_CICD_for_app1-hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,59 +26,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000078" />
-      <entry key="S5" value="1.0000032548081204" />
-      <entry key="S10" value="1.0025243034482463" />
-      <entry key="S30" value="1.2237757079249574" />
-      <entry key="S60" value="1.8395926600516848" />
-      <entry key="M2" value="3.1204068923726167" />
-      <entry key="M5" value="5.441761824429883" />
-      <entry key="M10" value="6.919992507065166" />
-      <entry key="M15" value="7.793205672601452" />
-      <entry key="M30" value="12.767124406454162" />
-      <entry key="H1" value="28.177436353470576" />
-      <entry key="H2" value="58.8490624285929" />
-      <entry key="H4" value="128.57838539919044" />
-      <entry key="D1" value="473.11375751626963" />
-      <entry key="W1" value="637.2809562888635" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000619707" />
+      <entry key="S10" value="1.0000117776558268" />
+      <entry key="S30" value="1.0561722852974338" />
+      <entry key="S60" value="1.548636973120637" />
+      <entry key="M2" value="2.8532584958926215" />
+      <entry key="M5" value="6.8090717933043905" />
+      <entry key="M10" value="14.751972036661291" />
+      <entry key="M15" value="23.53800137733545" />
+      <entry key="M30" value="48.70355621321182" />
+      <entry key="H1" value="85.13184404141595" />
+      <entry key="H2" value="132.88888589323943" />
+      <entry key="H4" value="211.73232625003803" />
+      <entry key="D1" value="579.5675025522829" />
+      <entry key="W1" value="762.0216542484753" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S2" value="3.0012645244309685E-152" />
+      <entry key="S5" value="2.462621155115748E-61" />
+      <entry key="S10" value="5.123990043908839E-31" />
+      <entry key="S30" value="1.0457501086386544E-10" />
+      <entry key="S60" value="1.3938847862402128E-5" />
+      <entry key="M2" value="0.005241547171974331" />
+      <entry key="M5" value="0.19613035605924317" />
+      <entry key="M10" value="0.7138729579755867" />
+      <entry key="M15" value="1.1280104114009029" />
+      <entry key="M30" value="1.8178560526603973" />
+      <entry key="H1" value="2.327800594887716" />
+      <entry key="H2" value="2.640417789457189" />
+      <entry key="H4" value="2.813878173058608" />
+      <entry key="D1" value="2.9680581925759975" />
+      <entry key="W1" value="2.9954137435511274" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8888426811665702" />
-      <entry key="MS500" value="0.9767085289622274" />
-      <entry key="S2" value="0.9941255712940634" />
-      <entry key="S5" value="0.997649323532293" />
-      <entry key="S10" value="1.0013444481764358" />
-      <entry key="S30" value="1.2233182733797199" />
-      <entry key="S60" value="1.839274376670139" />
-      <entry key="M2" value="3.1201508473660997" />
-      <entry key="M5" value="5.441585179561874" />
-      <entry key="M10" value="6.919878995464145" />
-      <entry key="M15" value="7.793112533184093" />
-      <entry key="M30" value="12.766982768327336" />
-      <entry key="H1" value="28.17719361152617" />
-      <entry key="H2" value="58.84873619468976" />
-      <entry key="H4" value="128.5779730813498" />
-      <entry key="D1" value="473.11350176481943" />
-      <entry key="W1" value="637.2809075973007" />
+      <entry key="MS100" value="0.9138314502294005" />
+      <entry key="MS500" value="0.9821395952633915" />
+      <entry key="S2" value="0.995504677670617" />
+      <entry key="S5" value="0.9981994403485087" />
+      <entry key="S10" value="0.9991110832988773" />
+      <entry key="S30" value="1.0558566762390653" />
+      <entry key="S60" value="1.5484226156615888" />
+      <entry key="M2" value="2.858229719266789" />
+      <entry key="M5" value="7.00414164276397" />
+      <entry key="M10" value="15.464131953808014" />
+      <entry key="M15" value="24.6642218073579" />
+      <entry key="M30" value="50.51988591662186" />
+      <entry key="H1" value="87.45852686690581" />
+      <entry key="H2" value="135.52849421493102" />
+      <entry key="H4" value="214.54554814108405" />
+      <entry key="D1" value="582.5352548859674" />
+      <entry key="W1" value="765.0170108082832" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -107,28 +105,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "epic",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise/AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/frontend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;epic&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjectsDevOps/Full-Stack-DevOps-Practise/AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjectsDevOps\Full-Stack-DevOps-Practise\AWS\4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s\frontend" />
