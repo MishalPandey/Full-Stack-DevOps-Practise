@@ -20,19 +20,19 @@ jobs:
           node-version: 22
 
       - name: Create .env File for Build
-        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax_calculator_frontend
+        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend
         run: echo "VITE_API_URL=/api" > .env
 
       - name: Install Dependencies
-        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax_calculator_frontend
+        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend
         run: npm ci
 
       - name: Run Tests
-        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax_calculator_frontend
+        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend
         run: npm test --if-present -- --watchAll=false
 
       - name: Build Frontend Application
-        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax_calculator_frontend
+        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend
         run: npm run build
 
 
@@ -54,7 +54,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v6
         with:
-          context: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax_calculator_frontend
+          context: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend
           push: true
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/tax-calculator-frontend:latest
