@@ -121,4 +121,4 @@ jobs:
 
       - name: Deploy to AWS EKS
         run: |
-          kubectl apply -f AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/${{ matrix.service }}
+          kubectl apply -f AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/${{ matrix.service }}
