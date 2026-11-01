@@ -56,6 +56,7 @@ jobs:
           java-version: '21'
 
       - name: Build JAR for Docker
+        working-directory: ${{ matrix.service.path }}
         run: |
           chmod +x gradlew
           ./gradlew bootJar -x test
@@ -78,6 +79,11 @@ jobs:
   deploy-to-aws-eks:
     runs-on: ubuntu-latest
     needs: docker-build-and-push
+    strategy:
+        matrix:
+            service:
+              - { name: service-a, path: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/service-a }
+              - { name: service-b, path: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/service-b }
 
     steps:
       - name: Checkout Code
