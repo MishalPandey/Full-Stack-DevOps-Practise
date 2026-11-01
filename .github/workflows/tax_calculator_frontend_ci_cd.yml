@@ -45,6 +45,10 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Create .env File for Docker Build
+        working-directory: AWS/3_aws_k8s_Deployment_of_app2-tax-calculator-microservice/tax-calculator-frontend
+        run: echo "VITE_API_URL=/api" > .env
+
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
@@ -90,8 +94,36 @@ jobs:
           kubectl get nodes
           kubectl get pods --all-namespaces
 
-      - name: Deploy Frontend to AWS EKS
+      # Install NGINX Ingress Controller if missing
+      - name: Install NGINX Ingress Controller
+        run: |
+          helm version || {
+            echo "Helm is not installed on this runner"
+            exit 1
+          }
+
+          helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+          helm repo update
+
+          helm upgrade --install ingress-nginx ingress-nginx/ingress-nginx \
+            --namespace ingress-nginx \
+            --create-namespace \
+            --set controller.service.type=LoadBalancer
+
+      - name: Wait for Ingress Controller
+        run: |
+          kubectl rollout status deployment/ingress-nginx-controller \
+            -n ingress-nginx --timeout=300s
+
+          kubectl get svc -n ingress-nginx
+
+      - name: Deploy Frontend and Ingress
         run: |
           kubectl apply -f AWS/4_goingFullStackDeployingEntireMicroserviceArchitecture_at_aws_k8s/frontend
           kubectl apply -f CICD/2_CICD_for_microservice_app2-tax-calculator/ingress.yaml
 
+      - name: Verify Frontend Deployment
+        run: |
+          kubectl rollout status deployment/frontend --timeout=180s
+          kubectl get pods
+          kubectl get ingress
