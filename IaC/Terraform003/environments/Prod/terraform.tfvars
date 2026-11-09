@@ -1,0 +1,11 @@
+aws_region        = "ap-south-1"
+ami_id            = "ami-0f19324397f53458f"
+instance_type     = "t3.micro"
+instance_name     = "prod-instance"
+enable_monitoring = false
+bucket_name       = "prod-bucket-770386273"
+bucket_purpose    = "Production bucket"
+enable_versioning = false
+environment       = "prod"
+iam_user_name     = "prod-user"
+iam_user_purpose  = "Production user"

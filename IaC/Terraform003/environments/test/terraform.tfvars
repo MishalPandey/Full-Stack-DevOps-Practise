@@ -1,0 +1,11 @@
+aws_region        = "ap-south-1"
+ami_id            = "ami-0f19324397f53458f"
+instance_type     = "t3.micro"
+instance_name     = "test-instance"
+enable_monitoring = false
+bucket_name       = "test-bucket-770386273"
+bucket_purpose    = "Test bucket"
+enable_versioning = false
+environment       = "test"
+iam_user_name     = "test-user"
+iam_user_purpose  = "Test user"
